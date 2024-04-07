@@ -1,0 +1,118 @@
+.translate {
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    top: 100px;
+    left: 150px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+
+.translate p {
+    font-size: 40px;
+    color: #b1b6cc;
+}
+
+.start {
+    float: right;
+    width: 150px;
+    height: 70px;
+    margin-top: 250px;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    /* background-color: #e6e6fb; */
+    border-radius: 20px;
+}
+
+.start button {
+    width: 150px;
+    height: 70px;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    background-color: #e6e6fb;
+    border: 0px;
+    border-radius: 10px;
+}
+.yuyan button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    background-color: #e6e6fb;
+    border: 0px;
+    border-radius: 10px;
+}
+.foot {
+    position: relative;
+    width: 1490px;
+    height: 300px;
+    margin-top: 650px;
+    background-color: #f1f6ff;
+}
+
+.foot .logo_img img {
+
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.foot .wechat_img img {
+    position: absolute;
+    width: 50px;
+    top: 130px;
+    left: 250px;
+
+}
+
+.info {
+    float: left;
+    margin-left: 500px;
+}
+
+.info dt {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.item {
+    width: 150px;
+    padding: 20px 0 0 50px;
+    float: left;
+}
+
+.item dt {
+    height: 25px;
+    font-size: 16px;
+}
+
+.item dd {
+    height: 22px;
+}
+
+.mod_copyright {
+    float: left;
+    text-align: center;
+}
+
+
+.mod_copyright_info {
+    line-height: 16px;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.yuyan {
+    position: absolute;
+    top: 510px;
+    left: 180px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: #e6e6fb;
+}

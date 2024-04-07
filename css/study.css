@@ -1,0 +1,13 @@
+.study {
+    padding-left: 100px;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.study p {
+    font-family: '宋体';
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-indent: 4em;
+}

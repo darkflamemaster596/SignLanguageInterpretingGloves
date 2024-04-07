@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?uckat8');
+    src: url('../fonts/icomoon.eot?uckat8#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?uckat8') format('truetype'),
+        url('../fonts/icomoon.woff?uckat8') format('woff'),
+        url('../fonts/icomoon.svg?uckat8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-color: #f8fbff;
+}
+
+.header_content {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 54px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: #f8fbff;
+    z-index: 1;
+}
+
+.logo_container a {
+    float: left;
+    display: block;
+    width: 200px;
+    height: 54px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.welcome {
+    float: left;
+    width: 400px;
+    height: 54;
+    margin-left: 550px;
+    font-size: 20px;
+    /* line-height: 44px; */
+}
+
+.app {
+    float: right;
+    width: 80px;
+    height: 40px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-left: 5px;
+    /* background-color: black; */
+}
+
+.app i {
+    font-family: "icomoon";
+    font-size: 20px;
+    color: red;
+
+}
+
+.login {
+    float: right;
+    width: 80px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: white;
+}
+
+.login i {
+    font-family: "icomoon";
+    font-size: 20px;
+    color: red;
+
+}
+
+.login_btn {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    /* background-color: black; */
+
+}
+
+.menus {
+    float: left;
+    width: 200px;
+    height: 474px;
+    position: fixed;
+    top: 54px;
+    left: 0;
+    /* background-color: pink; */
+}
+
+.change:hover {
+    background-color: #edf3ff;
+}
+
+.option {
+    margin-top: 50px;
+}
+
+.option i {
+    font-family: "icomoon";
+    font-size: 20px;
+    color: black;
+
+    margin-left: 20px;
+}
+
+.option a {
+    display: block;
+    float: right;
+    width: 110px;
+    height: 30px;
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+    font-family: '宋体';
+}
+
+.fixed_border {
+    position: fixed;
+    top: 60px;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    /* 其他样式，例如边框宽度、颜色等 */
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.content {
+    position: relative;
+    float: left;
+    width: 1490px;
+    height: 1000px;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: #f4f9ff;
+
+}
+
+.suggest input {
+    border: 0px;
+
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手语心生-环境检测</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/environment.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+        <!-- 头部区域 -->
+    <div class="header_content  ">
+        <!-- logo -->
+        <div class="logo_container">
+            <h1> <a href="index.html" target="_blank" title="手语心生">手语心生</a></h1>
+        </div>
+        <!-- 欢迎 -->
+        <div class="welcome">
+            <p>手语心生欢迎您！</p>
+        </div>
+        <!-- APP下载 -->
+        <div class="app">
+            <i></i>
+            <a href="#">APP下载</a>
+        </div>
+        <!-- 登录 -->
+        <div class="login">
+            <i></i>
+            <a href="login.html" class="login_btn">登录</a>
+
+        </div>
+    </div>
+    <!-- 左边菜单栏 -->
+    <div class="menus">
+        <div class="option change index_s">
+            <i></i>
+            <a href="index.html" target="_self">手语翻译</a>
+    
+        </div>
+        <div class="option change health_s">
+            <i></i>
+            <a href="health.html" target="_self">健康检测</a>
+        </div>
+        <div class="option change environment_s">
+            <i></i>
+            <a href="environment.html" target="_self">环境检测</a>
+    
+        </div>
+        <div class="option change connect_s">
+            <i></i>
+            <a href="connect.html" target="_self">智慧互联</a>
+    
+        </div>
+        <div class="option change study_s">
+            <i></i>
+            <a href="study.html" target="_self">学习专区</a>
+    
+        </div>
+        <div class="option change chat_s">
+            <i></i>
+            <a href="chat.html" target="_self">社交互动</a>
+    
+        </div>
+        <div class="option change sos_s">
+            <i></i>
+            <a href="sos.html" target="_self">紧急求助</a>
+    
+        </div>
+        <div class="option change device_s">
+            <i></i>
+            <a href="device.html" target="_self">连接设备</a>
+    
+        </div>
+        <div class="option change setting_s">
+            <i></i>
+            <a href="setting.html" target="_self">个性设置</a>
+    
+        </div>
+    </div>
+    <!-- 固定边框，区分公共页面和特殊页面 -->
+    <div class="fixed_border"></div>
+    <div class="content environment_s1">
+        <div class="env">
+            <h1>环境检测</h1>
+            <p>手语心生提供环境数据监测，让您随时关注周围环境变化。</p>
+        </div>
+            <div class="data">
+                <div class="mod_envi_btn mod_envi_start">
+                    <button>开始环境检测</button>
+                </div>
+                <div class="data_item data_item1">
+                    <div class="xin">
+                        <p>环境温度</p>
+                    </div>
+            
+                    <input type="textarea" class="number" readonly>
+            
+                </div>
+                <div class="data_item">
+                    <div class="xin">
+                        <p>环境湿度</p>
+                    </div>
+                    <input type="textarea" class="number" readonly>
+                </div>
+                <div class="data_item">
+                    <div class="xin">
+                        <p>噪音水平</p>
+                    </div>
+                    <input type="textarea" class="number" readonly>
+                </div>
+                <div class="mod_envi">
+                    <div class="mod_envi_btn mod_sug_start">
+                        <button>环境建议</button>
+                    </div>
+                    <div class="suggest">
+                        <input type="textarea" readonly>
+                    </div>
+                </div>
+              
+            
+            </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/basic.js"></script>
+    <script src="js/environment.js"></script>
+</body>
+</html>

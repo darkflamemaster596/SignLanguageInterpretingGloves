@@ -1,0 +1,13 @@
+.conten_head {
+    padding-left: 100px;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.conten_head p {
+    font-family: '宋体';
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-indent: 4em;
+}

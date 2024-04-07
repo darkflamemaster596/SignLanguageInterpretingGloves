@@ -1,0 +1,86 @@
+.env {
+    /* background-color: pink; */
+    padding-left: 100px;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.env p {
+    font-family: '宋体';
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-indent: 4em;
+}
+.mod_envi_btn {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.mod_envi_btn button {
+    width: 100px;
+    height: 50px;
+    font-family: '微软雅黑';
+    font-size: 15px;
+    background-color: #e6e6fb;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+.data {
+    margin-top: 40px;
+    width: 1480px;
+    height: 80px;
+    /* background-color: pink; */
+}
+
+.data_item {
+    float: left;
+    width: 250px;
+    height: 80px;
+    /* background-color: blanchedalmond; */
+    margin: 0 40px;
+}
+
+.data_item1 {
+    margin-left: 200px;
+}
+
+.xin {
+    width: 140px;
+    height: 80px;
+    background-color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+}
+
+.number {
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin-top: -55px;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #e6e6fb;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+ .suggest input {
+     width: 800px;
+     height: 300px;
+     margin-left: 300px;
+ }
+
+ .mod_envi {
+    float: left;
+    margin-top: 100px;
+    /* width: 500px; */
+    /* background-color: pink; */
+ }
